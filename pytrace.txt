@@ -8,3 +8,166 @@ Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/pyt
 
 'import site' failed; use -v for traceback
 --------------------------------------------------------------------------------
+-------------- Python-PSP started Thu May  4 02:14:32 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Thu May  4 02:14:35 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Thu May  4 02:14:37 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Thu May  4 02:14:58 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Thu May  4 02:15:04 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Thu May  4 02:16:02 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+Traceback (most recent call last):
+  File "script.py", line 7, in <module>
+    while true:
+NameError: name 'true' is not defined
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Thu May  4 02:16:04 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+Traceback (most recent call last):
+  File "script.py", line 7, in <module>
+    while true:
+NameError: name 'true' is not defined
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Thu May  4 02:16:08 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+Traceback (most recent call last):
+  File "script.py", line 7, in <module>
+    while true:
+NameError: name 'true' is not defined
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Thu May  4 02:16:17 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+Traceback (most recent call last):
+  File "script.py", line 7, in <module>
+    while true:
+NameError: name 'true' is not defined
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Thu May  4 02:18:27 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Thu May  4 02:21:38 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+'import site' failed; use -v for traceback
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Thu May  4 02:21:39 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+'import site' failed; use -v for traceback
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Thu May  4 02:21:39 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+'import site' failed; use -v for traceback
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Thu May  4 02:21:56 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Thu May  4 02:22:43 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+Starting pspogg
+Localtime:  (2023, 5, 4, 2, 22, 43, 3, 124, 0)
+Datetime:  2023-05-04 02:22:43.990177
+Real memory:  42221960
+exit
+Stopping agents...
+Stopped agent <__main__.player object at 0x91bacf0>
+Stopped agent <__main__.NPC object at 0x91bad10>
+Stopped self...
+--------------------------------------------------------------------------------
