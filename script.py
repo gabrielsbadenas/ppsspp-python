@@ -1,8 +1,26 @@
 import psp2d
 
+Image = psp2d.Image
+Screen = psp2d.Screen
+Font = psp2d.Font
+
 font = psp2d.Font("font.png")
 image = psp2d.Image(480, 272)
 screen = psp2d.Screen()
+class Position:
+    def __init__(self,x,y):
+        self.x=x
+        self.y=y
+
+class Sprite:
+    def __init__(self,path,position):
+        self.image = Image(path)
+        self.width = self.image.width
+        self.height = self.image.height
+        self.positionX = position.x
+        self.positionY = position.y
+        screen.blit(self.image, 0, 0, self.width,self.height, self.position.X, self.position.Y, True)
+
 
 white = psp2d.Color(255,255,255)
 light = psp2d.Color(170,170,170)
