@@ -1062,3 +1062,42 @@ Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
 Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
 
 --------------------------------------------------------------------------------
+-------------- Python-PSP started Sun May  7 05:04:53 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Sun May  7 05:08:25 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+Traceback (most recent call last):
+  File "script.py", line 119, in <module>
+    scene()
+  File "script.py", line 89, in scene
+    spaces[7][7][2]=True
+TypeError: 'tuple' object does not support item assignment
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Sun May  7 05:12:31 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+Traceback (most recent call last):
+  File "script.py", line 119, in <module>
+    scene()
+  File "script.py", line 89, in scene
+    spaces[0][0][2]=True
+TypeError: 'tuple' object does not support item assignment
+--------------------------------------------------------------------------------

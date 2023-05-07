@@ -70,7 +70,7 @@ def matrix():
     for i in range(rows):
         row = []
         for j in range(cols):
-            row.append((i, j, False))
+            row.append([i, j, False])
         matrix.append(row)
     return matrix
 
@@ -86,14 +86,15 @@ def player(x,y):
 def scene():
     running = True
     spaces = matrix()
-    #spaces[0][0][2]=True
+    spaces[1][0][2]=True
     while running==True:
         pad2 = psp2d.Controller()
         image.clear(black)
+        font.drawText(image, 0, 100, str(spaces[0][0][2]))
         screen.blit(image)
         logo()
-        player(0,0)
-        #searchMatrix(spaces)
+        #player(0,0)
+        searchMatrix(spaces)
         swap()
         if pad2.circle:
             running = False
