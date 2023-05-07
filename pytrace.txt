@@ -832,3 +832,233 @@ Traceback (most recent call last):
     running = true
 NameError: global name 'true' is not defined
 --------------------------------------------------------------------------------
+-------------- Python-PSP started Sun May  7 04:46:03 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+Traceback (most recent call last):
+  File "script.py", line 117, in <module>
+    scene()
+  File "script.py", line 89, in scene
+    spaces = matrix()
+  File "script.py", line 74, in matrix
+    row.append(Space(i, j, None))
+  File "script.py", line 60, in __init__
+    super(Space, self).__init__(x,y)
+TypeError: super() argument 1 must be type, not classobj
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Sun May  7 04:46:31 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+Traceback (most recent call last):
+  File "script.py", line 117, in <module>
+    scene()
+  File "script.py", line 89, in scene
+    spaces = matrix()
+  File "script.py", line 74, in matrix
+    row.append(Space(i, j, None))
+  File "script.py", line 60, in __init__
+    super(Space, self).__init__(x,y)
+TypeError: super() argument 1 must be type, not classobj
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Sun May  7 04:46:49 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+Traceback (most recent call last):
+  File "script.py", line 117, in <module>
+    scene()
+  File "script.py", line 89, in scene
+    spaces = matrix()
+  File "script.py", line 74, in matrix
+    row.append(Space(i, j, None))
+  File "script.py", line 60, in __init__
+    super(Space, self).__init__(x,y)
+TypeError: super() argument 1 must be type, not classobj
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Sun May  7 04:47:05 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Sun May  7 04:48:12 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+Traceback (most recent call last):
+  File "script.py", line 117, in <module>
+    scene()
+  File "script.py", line 89, in scene
+    spaces = matrix()
+  File "script.py", line 74, in matrix
+    row.append(Space(i, j, None))
+  File "script.py", line 60, in __init__
+    super(Space, self).__init__(x,y)
+TypeError: super() argument 1 must be type, not classobj
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Sun May  7 04:49:13 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+Traceback (most recent call last):
+  File "script.py", line 117, in <module>
+    main()
+  File "script.py", line 106, in main
+    scene()
+  File "script.py", line 89, in scene
+    spaces = matrix()
+  File "script.py", line 74, in matrix
+    row.append(Space(i, j, None))
+  File "script.py", line 60, in __init__
+    super(Space, self).__init__(x,y)
+TypeError: super() argument 1 must be type, not classobj
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Sun May  7 04:51:41 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Sun May  7 04:52:00 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Sun May  7 04:52:17 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+Traceback (most recent call last):
+  File "script.py", line 115, in <module>
+    scene()
+  File "script.py", line 86, in scene
+    spaces = matrix()
+  File "script.py", line 73, in matrix
+    row.append(Space(i, j, None))
+  File "script.py", line 59, in __init__
+    super(Space, self).__init__(x,y)
+TypeError: super() argument 1 must be type, not classobj
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Sun May  7 04:53:00 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Sun May  7 04:55:48 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Sun May  7 04:56:16 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+Traceback (most recent call last):
+  File "script.py", line 117, in <module>
+    scene()
+  File "script.py", line 89, in scene
+    spaces[0][0][2]='player'
+TypeError: 'tuple' object does not support item assignment
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Sun May  7 04:58:46 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+Traceback (most recent call last):
+  File "script.py", line 117, in <module>
+    scene()
+  File "script.py", line 89, in scene
+    spaces[0][0][2]=True
+TypeError: 'tuple' object does not support item assignment
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Sun May  7 04:59:03 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+Traceback (most recent call last):
+  File "script.py", line 117, in <module>
+    scene()
+  File "script.py", line 89, in scene
+    spaces[0][0][2]=True
+TypeError: 'tuple' object does not support item assignment
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Sun May  7 04:59:08 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+Traceback (most recent call last):
+  File "script.py", line 117, in <module>
+    scene()
+  File "script.py", line 89, in scene
+    spaces[0][0][2]=True
+TypeError: 'tuple' object does not support item assignment
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Sun May  7 05:00:00 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+--------------------------------------------------------------------------------
