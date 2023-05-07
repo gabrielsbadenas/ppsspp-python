@@ -28,7 +28,7 @@ image.clear(dark)
 
 gabi = psp2d.Image('gabissineun.png')
 sonsu = Image('sonsu.png')
-sprite = psp2d.Image('baereul.png')
+baereul = psp2d.Image('baereul.png')
 
 def getTime():
     return str(int(time()-start))
@@ -48,7 +48,8 @@ def logo():
     screen.blit(gabi,0,0,16,16,480/2,272/2,True)
 
 def render():
-    screen.blit(sprite, 0, 0, 16,16, int(getTime()), 272-32, True)
+    screen.blit(baereul, 0, 0, 16,16, int(getTime()), 272-32, True)
+
 class Pos:
     def __init__(self,x,y):
         self.x=x
@@ -78,24 +79,48 @@ def searchMatrix(matriz):
     for i in range(30):
         for j in range(16):
             tmp = matriz[i][j]
-            if tmp[2]:
+            if tmp[2]=='player':
                 player(tmp[0]*16,tmp[1]*16)
 
 def player(x,y):
     screen.blit(sonsu,0,0,16,16,x,y,True)
+
+def move(pad,source):
+    left = pad.left
+    right = pad.right
+    up = pad.up
+    down = pad.down
+    if 29>=source.x>-1 and -1<source.y<=15:
+        if left:
+            source.x-=1
+        if right:
+            source.x+=1
+        if up:
+            source.y-=1
+        if down:
+            source.y+=1
+
 def scene():
     running = True
     spaces = matrix()
-    spaces[1][0][2]=True
+    #spaces[random.randint(0,30)][random.randint(0,16)][2]='player'
+    start = time()
+    playerPos = Pos(1,1)
+    spaces[playerPos.x][playerPos.y][2]='player'
     while running==True:
         pad2 = psp2d.Controller()
         image.clear(black)
-        font.drawText(image, 0, 100, str(spaces[0][0][2]))
+        #font.drawText(image, 0, 100, str(spaces[0][0][2]))
         screen.blit(image)
-        logo()
-        #player(0,0)
+        #logo()
+        #to do: borrar la posicion anterior y actualizarla
+        
+        spaces[playerPos.x][playerPos.y][2]=False
+        move(pad2,playerPos)
+        spaces[playerPos.x][playerPos.y][2]='player'
         searchMatrix(spaces)
         swap()
+        sleep(1/24)
         if pad2.circle:
             running = False
             break

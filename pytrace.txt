@@ -1101,3 +1101,198 @@ Traceback (most recent call last):
     spaces[0][0][2]=True
 TypeError: 'tuple' object does not support item assignment
 --------------------------------------------------------------------------------
+-------------- Python-PSP started Sun May  7 05:13:56 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Sun May  7 05:17:17 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Sun May  7 05:22:19 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Sun May  7 05:24:02 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Sun May  7 05:24:09 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Sun May  7 05:45:10 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Sun May  7 05:47:11 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Sun May  7 05:48:15 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+Traceback (most recent call last):
+  File "script.py", line 144, in <module>
+    scene()
+  File "script.py", line 120, in scene
+    spaces[playerPos.x][playerPos.y][2]='player'
+IndexError: list index out of range
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Sun May  7 05:48:30 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Sun May  7 05:50:54 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+Traceback (most recent call last):
+  File "script.py", line 144, in <module>
+    scene()
+  File "script.py", line 120, in scene
+    spaces[playerPos.x][playerPos.y][2]='player'
+IndexError: list index out of range
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Sun May  7 05:51:02 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+Traceback (most recent call last):
+  File "script.py", line 144, in <module>
+    scene()
+  File "script.py", line 120, in scene
+    spaces[playerPos.x][playerPos.y][2]='player'
+IndexError: list index out of range
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Sun May  7 05:51:32 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+Traceback (most recent call last):
+  File "script.py", line 144, in <module>
+    scene()
+  File "script.py", line 120, in scene
+    spaces[playerPos.x][playerPos.y][2]='player'
+IndexError: list index out of range
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Sun May  7 05:51:40 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+Traceback (most recent call last):
+  File "script.py", line 144, in <module>
+    scene()
+  File "script.py", line 120, in scene
+    spaces[playerPos.x][playerPos.y][2]='player'
+IndexError: list index out of range
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Sun May  7 05:54:52 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Sun May  7 05:55:17 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Sun May  7 05:55:40 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+Traceback (most recent call last):
+  File "script.py", line 144, in <module>
+    scene()
+  File "script.py", line 120, in scene
+    spaces[playerPos.x][playerPos.y][2]='player'
+IndexError: list index out of range
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Sun May  7 05:56:15 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+Traceback (most recent call last):
+  File "script.py", line 144, in <module>
+    scene()
+  File "script.py", line 120, in scene
+    spaces[playerPos.x][playerPos.y][2]='player'
+IndexError: list index out of range
+--------------------------------------------------------------------------------
