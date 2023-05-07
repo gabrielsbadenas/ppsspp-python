@@ -1380,3 +1380,91 @@ Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
 Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
 
 --------------------------------------------------------------------------------
+-------------- Python-PSP started Sun May  7 06:14:33 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Sun May  7 06:15:40 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+Traceback (most recent call last):
+  File "script.py", line 165, in <module>
+    scene()
+  File "script.py", line 141, in scene
+    move(pad2,playerPos)
+  File "script.py", line 109, in move
+    elif right and source.x < 29 and source.x+1 != source.prev_x:
+AttributeError: Pos instance has no attribute 'prev_x'
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Sun May  7 06:16:06 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+Traceback (most recent call last):
+  File "script.py", line 166, in <module>
+    scene()
+  File "script.py", line 142, in scene
+    move(pad2,playerPos)
+  File "script.py", line 110, in move
+    elif right and source.x < 29 and source.x+1 != source.prev_x:
+AttributeError: Pos instance has no attribute 'prev_x'
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Sun May  7 06:29:02 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Sun May  7 06:29:14 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Sun May  7 06:29:38 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Sun May  7 06:30:22 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Sun May  7 06:30:53 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+--------------------------------------------------------------------------------

@@ -133,6 +133,7 @@ def scene():
         spaces[playerPos.x][playerPos.y][2]='player'
         searchMatrix(spaces)
         swap()
+        sleep(0.0625)
         if pad2.circle:
             running = False
             break
