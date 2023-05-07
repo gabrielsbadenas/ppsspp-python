@@ -34,6 +34,7 @@ def getTime():
 def timer():
     image.clear(dark)
     font.drawText(image, 0, 0, getTime())
+    font.drawText(image, 200, 100, 'press o to start')
     font.drawText(image,random.randint(0,horizontal),random.randint(0,vertical),"'")
     image.fillRect(0,vertical,480,16,psp2d.Color(164,219,232))#blue)
     screen.blit(image)
@@ -44,18 +45,31 @@ def logo():
     screen.blit(gabi,0,0,16,16,480/2,272/2,True)
 def render():
     screen.blit(sprite, 0, 0, 16,16, int(getTime()), 272-32, True)
-
+def scene():
+    running = True
+    pad2 = psp2d.Controller()
+    while running==True:
+        image.clear(black)
+        screen.blit(image)
+        logo()
+        swap()
+        if pad2.circle:
+            running = False
+            break
 def main():
     x = True
     while x == True:
         #sleep(1/24)
         timer()
         #render()
-        pad = psp2d.Controller()
-        if pad.circle:
+        pad1 = psp2d.Controller()
+        if pad1.circle:
             font.drawText(image, 0, 60, "Goodbye!")
             screen.blit(image)
             swap()
+            sleep(5)
             x = False
+            break
 
 main()
+scene()

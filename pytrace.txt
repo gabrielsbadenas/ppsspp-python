@@ -806,3 +806,29 @@ Traceback (most recent call last):
     font.drawText(image,random.randint(0,horizontal),random.randint(0,vertical))
 TypeError: drawText() takes exactly 4 arguments (3 given)
 --------------------------------------------------------------------------------
+-------------- Python-PSP started Sun May  7 03:32:26 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Sun May  7 03:43:24 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+Traceback (most recent call last):
+  File "script.py", line 63, in <module>
+    main()
+  File "script.py", line 54, in main
+    timer()
+  File "script.py", line 35, in timer
+    running = true
+NameError: global name 'true' is not defined
+--------------------------------------------------------------------------------
