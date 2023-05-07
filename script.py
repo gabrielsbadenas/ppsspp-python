@@ -15,21 +15,6 @@ swap = screen.swap
 size = 16
 horizontal = 480-size
 vertical = 272-size
-class Position:
-    def __init__(self,x,y):
-        self.x=x
-        self.y=y
-
-class Sprite:
-    def __init__(self,path,position):
-        self.image = psp2d.Image(path)
-        self.width = self.image.width
-        self.height = self.image.height
-        self.position = position
-        self.positionX = position.x
-        self.positionY = position.y
-        screen.blit(self.image, 0, 0, self.width,self.height, self.positionX, self.positionY, True)
-        screen.swap()
 
 white = psp2d.Color(255,255,255)
 light = psp2d.Color(170,170,170)
@@ -39,17 +24,11 @@ blue = psp2d.Color(164,219,232)
 CLEAR_COLOR =black 
 
 image.clear(dark)
-#font.drawText(image, 0, 0, "hola mundo")
-#font.drawText(image, 0, 30, "Press Circle to exit")
-#image.putPixel(200,200,light)
-#image.fillRect(0,0,16,16,dark)
-#actualiza la imagen
-sprite = psp2d.Image('gabissineun.png')
-#sprite = Sprite('gabissineun.png',Position(480-16,272-16))
-#screen.blit(sprite,480-16,272-16)
-#screen.blit(image)
-#screen.blit(sprite, 0, 0, 16,16, 400, 200, True)
-#swap()
+
+gabi = psp2d.Image('gabissineun.png')
+
+sprite = psp2d.Image('baereul.png')
+
 def getTime():
     return str(int(time()-start))
 def timer():
@@ -59,12 +38,12 @@ def timer():
     image.fillRect(0,vertical,480,16,psp2d.Color(164,219,232))#blue)
     screen.blit(image)
     render()
+    logo()
     swap()
-
+def logo():
+    screen.blit(gabi,0,0,16,16,480/2,272/2,True)
 def render():
-    #sprite = Image('gabissineun.png')
     screen.blit(sprite, 0, 0, 16,16, int(getTime()), 272-32, True)
-    #swap()
 
 def main():
     x = True
