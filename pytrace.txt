@@ -488,3 +488,304 @@ Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
 Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
 
 --------------------------------------------------------------------------------
+-------------- Python-PSP started Sat May  6 23:42:59 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Sun May  7 00:13:47 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+Traceback (most recent call last):
+  File "script.py", line 39, in <module>
+    sprite = Sprite('gabissineun.png',Position(480-16,272-16))
+  File "script.py", line 23, in __init__
+    screen.blit(self.image, 0, 0, self.width,self.height, self.position.X, self.position.Y, True)
+AttributeError: Position instance has no attribute 'X'
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Sun May  7 00:13:58 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+Traceback (most recent call last):
+  File "script.py", line 39, in <module>
+    sprite = Sprite('gabissineun.png',Position(480-16,272-16))
+  File "script.py", line 23, in __init__
+    screen.blit(self.image, 0, 0, self.width,self.height, self.position.X, self.position.Y, True)
+AttributeError: Position instance has no attribute 'X'
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Sun May  7 00:14:28 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+Traceback (most recent call last):
+  File "script.py", line 39, in <module>
+    sprite = Sprite('gabissineun.png',Position(480-16,272-16))
+  File "script.py", line 23, in __init__
+    screen.blit(self.image, 0, 0, self.width,self.height, self.position.X, self.position.Y, True)
+AttributeError: Position instance has no attribute 'X'
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Sun May  7 00:15:11 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+Traceback (most recent call last):
+  File "script.py", line 39, in <module>
+    sprite = Sprite('gabissineun.png',Position(480-16,272-16))
+  File "script.py", line 23, in __init__
+    screen.blit(self.image, 0, 0, self.width,self.height, self.position.X, self.position.Y, True)
+AttributeError: Position instance has no attribute 'X'
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Sun May  7 00:15:47 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+Traceback (most recent call last):
+  File "script.py", line 39, in <module>
+    sprite = Sprite('gabissineun.png',Position(480-16,272-16))
+  File "script.py", line 23, in __init__
+    screen.blit(self.image, 0, 0, self.width,self.height, self.position.X, self.position.Y, True)
+AttributeError: Position instance has no attribute 'X'
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Sun May  7 00:16:06 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Sun May  7 00:20:43 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Sun May  7 00:23:41 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Sun May  7 00:27:37 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Sun May  7 00:30:52 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+Traceback (most recent call last):
+  File "script.py", line 62, in <module>
+    main()
+  File "script.py", line 54, in main
+    timer()
+  File "script.py", line 47, in timer
+    font.drawText(image,69,69,time.time())
+TypeError: drawText() argument 4 must be string, not float
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Sun May  7 00:30:55 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+Traceback (most recent call last):
+  File "script.py", line 62, in <module>
+    main()
+  File "script.py", line 54, in main
+    timer()
+  File "script.py", line 47, in timer
+    font.drawText(image,69,69,time.time())
+TypeError: drawText() argument 4 must be string, not float
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Sun May  7 00:31:13 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+Traceback (most recent call last):
+  File "script.py", line 62, in <module>
+    main()
+  File "script.py", line 54, in main
+    timer()
+  File "script.py", line 47, in timer
+    font.drawText(image,69,69,time.time())
+TypeError: drawText() argument 4 must be string, not float
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Sun May  7 00:31:50 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Sun May  7 00:32:51 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+Traceback (most recent call last):
+  File "script.py", line 66, in <module>
+    main()
+  File "script.py", line 56, in main
+    font.drawText(image,69,69,time.time())
+TypeError: drawText() argument 4 must be string, not float
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Sun May  7 00:35:04 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+Traceback (most recent call last):
+  File "script.py", line 66, in <module>
+    main()
+  File "script.py", line 54, in main
+    timer()
+  File "script.py", line 47, in timer
+    font.drawText(image,69,69,time())
+TypeError: drawText() argument 4 must be string, not float
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Sun May  7 00:38:40 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+Traceback (most recent call last):
+  File "script.py", line 62, in <module>
+    main()
+  File "script.py", line 53, in main
+    time.sleep(1/60)
+AttributeError: 'builtin_function_or_method' object has no attribute 'sleep'
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Sun May  7 00:55:16 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+  File "script.py", line 53
+    def main():
+      ^
+IndentationError: expected an indented block
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Sun May  7 00:55:25 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+  File "script.py", line 53
+    def main():
+      ^
+IndentationError: expected an indented block
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Sun May  7 00:56:03 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+  File "script.py", line 53
+    def main():
+      ^
+IndentationError: expected an indented block
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Sun May  7 00:56:16 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+  File "script.py", line 48
+    screen.blit(image)
+         ^
+SyntaxError: invalid syntax
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Sun May  7 00:56:33 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+  File "script.py", line 53
+    def main():
+      ^
+IndentationError: expected an indented block
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Sun May  7 01:04:55 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+--------------------------------------------------------------------------------
