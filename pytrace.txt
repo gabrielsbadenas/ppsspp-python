@@ -789,3 +789,20 @@ Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
 Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
 
 --------------------------------------------------------------------------------
+-------------- Python-PSP started Sun May  7 01:34:29 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+Traceback (most recent call last):
+  File "script.py", line 79, in <module>
+    main()
+  File "script.py", line 70, in main
+    timer()
+  File "script.py", line 56, in timer
+    font.drawText(image,random.randint(0,horizontal),random.randint(0,vertical))
+TypeError: drawText() takes exactly 4 arguments (3 given)
+--------------------------------------------------------------------------------
