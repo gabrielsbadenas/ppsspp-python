@@ -118,7 +118,7 @@ def scene():
     spaces = matrix()
     #spaces[random.randint(0,30)][random.randint(0,16)][2]='player'
     start = time()
-    playerPos = Pos(1,1)
+    playerPos = Pos(15,8)
     spaces[playerPos.x][playerPos.y][2]='player'
     while running==True:
         pad2 = psp2d.Controller()

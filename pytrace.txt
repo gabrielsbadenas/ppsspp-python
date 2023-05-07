@@ -1468,3 +1468,12 @@ Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
 Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
 
 --------------------------------------------------------------------------------
+-------------- Python-PSP started Sun May  7 06:33:10 2023
+
+Free memory: 1162240
+PyPSP running in: ms0:/PSP/GAME/ppsspp-python
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+--------------------------------------------------------------------------------
