@@ -1,5 +1,6 @@
 import psp2d
-from time import time,localtime,sleep
+from time import time
+from time import sleep
 import random
 
 start = time()
@@ -90,15 +91,27 @@ def move(pad,source):
     right = pad.right
     up = pad.up
     down = pad.down
-    if 29>=source.x>-1 and -1<source.y<=15:
-        if left:
-            source.x-=1
-        if right:
-            source.x+=1
-        if up:
-            source.y-=1
-        if down:
-            source.y+=1
+    if source.x <= 0 and pad.left:
+        return
+    if source.x >= 29 and pad.right:
+        return
+    if source.y <= 0 and pad.up:
+        return
+    if source.y >= 15 and pad.down:
+        return
+
+    if left:
+        source.x-=1
+        sleep(1/4)
+    if right:
+        source.x+=1
+        sleep(1/4)
+    if up:
+        source.y-=1
+        sleep(1/4)
+    if down:
+        source.y+=1
+        sleep(1/4)
 
 def scene():
     running = True
@@ -109,7 +122,7 @@ def scene():
     spaces[playerPos.x][playerPos.y][2]='player'
     while running==True:
         pad2 = psp2d.Controller()
-        image.clear(black)
+        image.clear(light)
         #font.drawText(image, 0, 100, str(spaces[0][0][2]))
         screen.blit(image)
         #logo()
@@ -120,7 +133,6 @@ def scene():
         spaces[playerPos.x][playerPos.y][2]='player'
         searchMatrix(spaces)
         swap()
-        sleep(1/24)
         if pad2.circle:
             running = False
             break
