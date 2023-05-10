@@ -1,4 +1,11 @@
-import psp2d
+import psp2d, pspos
+import pspnet
+import pspmp3
+import pspogg
+from time import time, localtime
+import datetime
+import sys
+import stackless
 from time import time
 from time import sleep
 import random
